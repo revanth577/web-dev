@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*
+
+*************************************
+
+TITLE BAR
+*************************************
+
+*/
+
+.title-bar{
+    height: 5vh;
+    background-color: #209e62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:18px;
+    color:#fff;
+    /* border:2px solid red; */
+}
+
+/*
+
+*************************************
+
+MENU BAR
+*************************************
+
+*/
+
+.menu-bar{
+    height: 5vh;
+    background-color: #209e62;
+    display: flex;
+    color:#fff;
+   
+}
+
+.menu-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.menu-item.selected{
+    background-color: #fff;
+    color:#209e62;
+    
+}
+
+.menu-item:hover{
+    background-color: #F5F5F5;
+    color:#209e62;
+    cursor: pointer;
+}
+.menu-item.selected:hover{
+    cursor:default;
+    
+}
+
+
+/*
+
+*************************************
+
+MENU ICON BAR
+*************************************
+
+*/
+
+.menu-icon-bar{
+    height: 5vh;
+    display:flex;
+    align-items:center;
+    /* border:2px solid red; */
+}
+
+.menu-icon{
+    padding-left: 12px;
+    padding-right: 12px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.menu-icon:hover{
+    background-color: #F5F5F5;
+    cursor: pointer;
+    
+}
+.font-family-selector{
+    width: 150px;
+}
+.selector{
+    height: 30px;
+    font-size:18px;
+}
+.selector option{
+    font-size:18px;
+}
+/*
+
+*************************************
+
+Formula BAR
+*************************************
+
+*/
+
+
+.formula-bar{
+    height: 5vh;
+    border:2px solid red;
+}
+
+/*
+
+*************************************
+
+Data Container
+*************************************
+
+*/
+
+
+
+
+.data-container{
+    height: 75vh;
+    border:2px solid red;
+}
+
+
+/*
+
+*************************************
+
+Sheet Container
+*************************************
+
+*/
+
+
+.sheet-container{
+    height: 5vh;
+   display: flex;
+   align-items:center;
+   width:calc(100vw-110px);
+}
+.icon-left-scroll,.icon-right-scroll
+{
+    font-size:30px;
+    
+}
+.sheet-tab{
+    border-bottom:4px solid #107c41;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items:center;
+    
+}
+.scroller{
+    width:70px;
+}
+.icon-left-scroll:hover,.icon-right-scroll:hover
+{
+    cursor:pointer;
+}
+.icon-add{
+    color:#209e62;
+    width:40px;
+}
+
+.icon-add:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
